@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="28.2.0" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.5.4" pages="2">
   <diagram name="Page-1" id="l0z3FJVzMN1xzv2yVKNu">
     <mxGraphModel dx="976" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,15 +94,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZGr0zJdXC4l36LaGqzzS" name="precise_hashrate-targeting">
-    <mxGraphModel dx="639" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="759" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NR3PIb-3Yu9TUMykCGvZ-1" value="HCP&lt;div&gt;hashrate control plane&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="10" width="250" height="60" as="geometry" />
+        <mxCell id="NR3PIb-3Yu9TUMykCGvZ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="HCP&lt;div&gt;hashrate control plane&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="250" x="50" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="NR3PIb-3Yu9TUMykCGvZ-2" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#286d73;&quot;&gt;rebalanceWorker&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="82.5" y="130" width="177.5" height="40" as="geometry" />
+        <mxCell id="NR3PIb-3Yu9TUMykCGvZ-2" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#286d73;&quot;&gt;rebalanceWorker&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="177.5" x="86.25" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U2QInxG5pg-EzbvWUNJT-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10s loop&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U2QInxG5pg-EzbvWUNJT-4" edge="1" parent="1" source="U2QInxG5pg-EzbvWUNJT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="U2QInxG5pg-EzbvWUNJT-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2QInxG5pg-EzbvWUNJT-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#286d73;&quot;&gt;measureHashrate&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="90" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="U2QInxG5pg-EzbvWUNJT-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(54, 102, 107);&quot;&gt;measureConnectionHashrate&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#36666b&quot;&gt;1. collect diff from all connPairs.&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#36666b&quot;&gt;2. record diff in &lt;/font&gt;connectionHashrateStore&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="370" y="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -23,13 +23,13 @@
           <mxGeometry height="681.65" width="992" x="198" y="630" as="geometry" />
         </mxCell>
         <mxCell id="MwK1OTOxF1Uj_duHhShd-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="530" x="414" y="190" as="geometry" />
+          <mxGeometry height="60" width="140" x="500" y="190" as="geometry" />
         </mxCell>
         <mxCell id="MwK1OTOxF1Uj_duHhShd-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[00]" vertex="1">
-          <mxGeometry height="30" width="60" x="580" y="205" as="geometry" />
+          <mxGeometry height="30" width="60" x="500" y="205" as="geometry" />
         </mxCell>
         <mxCell id="MwK1OTOxF1Uj_duHhShd-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="en2: 7B" vertex="1">
-          <mxGeometry height="30" width="60" x="649" y="205" as="geometry" />
+          <mxGeometry height="30" width="60" x="569" y="205" as="geometry" />
         </mxCell>
         <mxCell id="MwK1OTOxF1Uj_duHhShd-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OnNewSession -&amp;gt; getBackend -&amp;gt; getSessionScheduler" vertex="1">
           <mxGeometry height="50" width="160" x="430" y="280" as="geometry" />

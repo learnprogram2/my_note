@@ -109,17 +109,17 @@
         <mxCell id="MwK1OTOxF1Uj_duHhShd-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UsingFixedEn1=&amp;nbsp;false&lt;div&gt;SupportSetExtranonce=&lt;b&gt;false&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="1170" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="MwK1OTOxF1Uj_duHhShd-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Case1:" vertex="1">
+        <mxCell id="MwK1OTOxF1Uj_duHhShd-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Case3:" vertex="1">
           <mxGeometry height="30" width="60" x="1110" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="MwK1OTOxF1Uj_duHhShd-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Case2" vertex="1">
+        <mxCell id="MwK1OTOxF1Uj_duHhShd-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Case4" vertex="1">
           <mxGeometry height="30" width="60" x="1110" y="350" as="geometry" />
         </mxCell>
         <mxCell id="MwK1OTOxF1Uj_duHhShd-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UsingFixedEn1=true&lt;div&gt;SupportSetExtranonce=true&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="1370" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="MwK1OTOxF1Uj_duHhShd-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="X" vertex="1">
-          <mxGeometry height="30" width="180" x="1389" y="350" as="geometry" />
+        <mxCell id="MwK1OTOxF1Uj_duHhShd-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="X&amp;nbsp;&lt;div&gt;have to close: &lt;font color=&quot;#286d73&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;backendclosefunc&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="211" x="1389" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
